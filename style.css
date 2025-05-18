@@ -1,0 +1,177 @@
+*{
+
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.header {
+
+    width: 1320px;
+     height: 70px;
+     display: flex;
+     
+}
+.logo {
+    width: 610px;
+    height: 60px;
+    background: url(magnew.jpg);
+    background-size: 300px 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+.elements ul{
+    
+    height: 70px;
+    width: 670px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: larger;
+}
+.elements ul li{
+    list-style-type: none;
+}
+.elements li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+ .elements li i{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 0.5s;
+ }
+ .elements li a:hover  {
+    color: grey;
+ }
+ .elements li i:hover{
+    color: grey;
+ }
+
+ .ban{
+    width: 1320px;
+    height: 675px;
+    background-image: url(ba.png);
+    background-size: 1320px 675px;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .banner{
+    width: 1320px;
+    height: 2000px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .banner a{
+   text-decoration: none;
+ }
+ .items{
+    width: 266px;
+    height: 396px;
+    box-shadow: 2px 2px 20px grey; 
+    transition: 1s;
+
+ }
+ .items:hover{
+   transform: scale(1.1);
+ }
+ .img{
+   width: 270px;
+   height: 300px;
+   background-attachment: fixed;
+   position: relative;
+ }
+ .details{
+   width: 266px;
+   height: 100px;
+   padding: 2px 2px 0px 2px;
+}
+
+
+.footer{
+    width: 1320px;
+    height: 650px;
+    background-color: black
+ }
+ .footerinner{
+    margin-left: 160px;
+    width: 1000px;
+    height: 650px;
+ }
+ .logo2{
+    width: 500px;
+    height: 90px;
+    background-image: url(magnew.jpg);
+    background-size: 500px 90px;
+    background-repeat: no-repeat; 
+ }
+ .info{
+    width: 1000px;
+    height: 150px;
+    text-align: center;
+ }
+ .info a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+ }
+ .info h2{
+    text-decoration: none;
+    transition: 0.5s;
+ }
+ .info a h2:hover{
+    color: grey;
+ }
+ .box{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+ }
+ .boxes{
+    width: 316px;
+    height: 250px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 20px grey; 
+ }
+ .boxes h4{
+    text-align: center;
+ }
+ .box3{
+    width: 1000px;
+    height: 40px;
+    padding-top: 10px;
+    font-size: larger;
+    text-align: center;
+    letter-spacing: 10px;
+    transition: 1s;
+ }
+ .box3 i:hover{
+    color: white;
+    background-color: black;
+ }
+ .footer .cr{
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+ }
+
+
+
